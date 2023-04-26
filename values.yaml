@@ -1,3 +1,10 @@
+global:
+  auth: 
+    postgresPassword: "coder"
+    username: "coder"
+    password: "coder"
+    database: "coder-db"
+
 # coder -- Primary configuration for `coder server`.
 coder:
   # coder.replicaCount -- The number of Kubernetes deployment replicas.
@@ -262,9 +269,3 @@ extraTemplates:
   #      name: my-configmap
   #    data:
   #      key: {{ .Values.myCustomValue | quote }}
-
-global:
-  postgresPassword: "coder"
-  username: "coder"
-  password: "coder"
-  database: "coder-db"
