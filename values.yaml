@@ -105,7 +105,7 @@ coder:
   #
   # We will additionally set CODER_ACCESS_URL if unset to the cluster service
   # URL.
-  env: []
+  env:
     - name: CODER_PG_CONNECTION_URL
       valueFrom:
         secretKeyRef:
