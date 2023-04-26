@@ -282,4 +282,4 @@ global:
       postgresPassword: "coder"
       username: "coder"
       password: "coder"
-      database: "coder-db"
+      database: "coderdb"
