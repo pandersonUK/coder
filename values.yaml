@@ -1,9 +1,10 @@
 global:
-  auth: 
-    postgresPassword: "coder"
-    username: "coder"
-    password: "coder"
-    database: "coder-db"
+  postgresql:
+    auth: 
+      postgresPassword: "coder"
+      username: "coder"
+      password: "coder"
+      database: "coder-db"
 
 # coder -- Primary configuration for `coder server`.
 coder:
